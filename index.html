@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News App</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/fav-icon.png" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -20,11 +22,16 @@
                     <li class="hover-link nav-item" id="finance" onclick="onNavItemClick('finance')">Finance</li>
                     <li class="hover-link nav-item" id="politics" onclick="onNavItemClick('politics')">Politics</li>
                 </ul>
+             
             </div>
+            
+            
+
             <div class="search-bar flex">
                 <input id="search-text" type="text" class="news-input" placeholder="e.g. Science">
                 <button id="search-button" class="search-button">Search</button>
             </div>
+            <div id="menu-btn" class="fas fa-bars"></div>
         </div>
     </nav>
     
@@ -48,6 +55,26 @@
         </div>
     </template>
 
+    <footer >
+        <div class="container">
+
+     <div class="fot">
+    <p >Follows</p>
+    
+    <div class="share">
+     <a href="#"><i class="fab fa-instagram icon"></i></a>
+     <a href="#"><i class="fab fa-facebook"></i></a>
+     <a href="#"><i class="fab fa-twitter"></i></a>
+     <a href="#"><i class="fab fa-linkedin"></i></a>
+
+    </div>          
+<div >
+    <span>&copy; 2025 Fasted Nesws |All Rights Reserved</span>
+</div>
+
+</div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
-</html> 
+</html>

@@ -2,6 +2,22 @@ const API_KEY= "be8947efbd8f41b19cd11edc35bca30a";
 
 const url ="https://newsapi.org/v2/everything?q=";
 
+const  navlinks=document.querySelector(".main-nav .nav-links");
+const menuBtn=document.getElementById("menu-btn")
+
+
+menuBtn.addEventListener("click",()=>{
+    console.log(1)
+    navlinks.classList.toggle("active")
+})
+
+
+
+
+
+
+
+
 window.addEventListener("load", () => fetchNews("India"));
 
 function reload() {
