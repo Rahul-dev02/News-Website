@@ -209,6 +209,11 @@ footer{
     margin: 5px 10px;
     font-size: 26px;
     margin-block:15px ;
+   
+}
+
+.fot .share a i:hover{
+    color:gray;
 }
 
 
